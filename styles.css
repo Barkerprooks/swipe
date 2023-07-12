@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: lightgrey;
+}
+
+#panel {
+    background: white;
+    border: 2px solid lightsalmon;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 1px grey;
+    padding: 30px;
+    width: 70vw;
+    margin-left: 15vw;
+    text-align: center;
+}
+
+#control {
+    display: flex;
+    justify-content: space-between;
+}
+
+#fields {
+    font-size: 16pt;
+    height: 50%;
+    text-align: left;
+    margin: 5px;
+}
+
+#magstripe-input {
+    color: transparent;
+    width: 0;
+    height: 0;
+    border: none;
+    display: block;
+    background: transparent;
+}
+
+#status {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#status div {
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgrey;
+}
+
+#amount-label {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#amount-input {
+    margin: 10px;
+    width: 5em;
+    font-size: 12pt;
+    border: none;
+    border-bottom: 1px dotted grey;
+}
+
+#amount-input:focus {
+    outline: none;
+}
+
+#activate-button {
+    background: white;
+    color: black;
+    border: 1px solid green;
+    border-radius: 10px;
+    font-size: 11pt;
+    min-width: 7em;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#activate-button:hover {
+    color: green;
+}
+
+#activate-button:disabled {
+    border: 1px solid grey;
+    color: grey;
+    cursor: not-allowed;
+}
+
+#name {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    margin-bottom: 15px;
+}
+
+#response {
+    margin: 10px;
+}
