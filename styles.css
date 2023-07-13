@@ -5,17 +5,17 @@
 }
 
 body {
-    background: lightgrey;
+    background: linear-gradient(45deg, grey, 15%, white);
+    height: 100vh;
 }
 
 #panel {
     background: white;
     border: 2px solid lightsalmon;
-    border-radius: 30px;
-    box-shadow: 0 0 10px 1px grey;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px grey;
+    margin: 0 5vw;
     padding: 30px;
-    width: 70vw;
-    margin-left: 15vw;
     text-align: center;
 }
 
@@ -101,5 +101,6 @@ body {
 }
 
 #response {
+    width: 33.33%;
     margin: 10px;
 }
